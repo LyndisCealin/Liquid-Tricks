@@ -1,0 +1,7 @@
+You initialize an array out of thin air with liquid. Well... you can.
+
+You just have to `split` a new assigned variable containing an empty string. Just like this:
+
+```
+{% assign array = "" | split: ',' %}
+```
